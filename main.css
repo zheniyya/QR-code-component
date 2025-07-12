@@ -1,5 +1,6 @@
 
 body{
+    font-family: 'Outfit', sans-serif;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -9,9 +10,8 @@ body{
 }
 
 .white-fon{
+    max-width: 320px;
     background-color: hsl(0, 0%, 100%);
-    width:22vw;
-    height: 70vh;
     border-radius: 4%;
     display: grid;
     grid-template-columns: 1fr;
@@ -26,6 +26,26 @@ body{
 
 .picture img{
     border-radius: 4%;
+}
+
+
+
+
+
+ h1{
+
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.instruction p{
+    color: hsl(216, 15%, 48%);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
 }
 
 
